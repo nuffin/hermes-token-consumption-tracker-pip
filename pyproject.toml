@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hermes-token-tracker"
+version = "1.0.0"
+description = "Track per-request LLM token consumption for Hermes Agent"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.entry-points."hermes_agent.plugins"]
+token-consumption-tracker = "token_consumption_tracker:register"
+
+[tool.setuptools.packages.find]
+include = ["token_consumption_tracker*"]
