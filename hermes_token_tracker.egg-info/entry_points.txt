@@ -1,0 +1,2 @@
+[hermes_agent.plugins]
+token-consumption-tracker = token_consumption_tracker:register

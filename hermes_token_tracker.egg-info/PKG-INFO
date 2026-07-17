@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: hermes-token-tracker
+Version: 1.0.0
+Summary: Track per-request LLM token consumption for Hermes Agent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# hermes-token-tracker
+
+Track per-request LLM token consumption for Hermes Agent.
+
+## Install
+
+```bash
+pip install hermes-token-tracker
+```
