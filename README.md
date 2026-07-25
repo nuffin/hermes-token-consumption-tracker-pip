@@ -7,7 +7,7 @@ Track per-request LLM token consumption for Hermes Agent.
 ## Install
 
 ```bash
-pip install hermes-token-consumption-tracker-pip
+pip install hermes-token-consumption-tracker
 ```
 
 ## License

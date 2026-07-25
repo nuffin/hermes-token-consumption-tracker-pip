@@ -3,8 +3,8 @@ requires = ["setuptools>=68.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "hermes-token-consumption-tracker-pip"
-version = "1.0.0"
+name = "hermes-token-consumption-tracker"
+version = "1.1.0"
 description = "Track per-request LLM token consumption for Hermes Agent"
 readme = "README.md"
 requires-python = ">=3.11"
