@@ -13,5 +13,8 @@ dependencies = []
 [project.entry-points."hermes_agent.plugins"]
 token-consumption-tracker = "token_consumption_tracker:register"
 
+[project.urls]
+Source = "https://github.com/nuffin/hermes-token-consumption-tracker-pip"
+
 [tool.setuptools.packages.find]
 include = ["token_consumption_tracker*"]
