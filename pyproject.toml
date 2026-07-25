@@ -11,10 +11,10 @@ requires-python = ">=3.11"
 dependencies = []
 
 [project.entry-points."hermes_agent.plugins"]
-token-consumption-tracker = "token_consumption_tracker:register"
+token-consumption-tracker = "hermes_token_consumption_tracker:register"
 
 [project.urls]
 Source = "https://github.com/nuffin/hermes-token-consumption-tracker-pip"
 
 [tool.setuptools.packages.find]
-include = ["token_consumption_tracker*"]
+include = ["hermes_token_consumption_tracker*"]

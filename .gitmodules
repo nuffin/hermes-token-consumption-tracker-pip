@@ -1,3 +1,4 @@
-[submodule "token_consumption_tracker"]
-	path = token_consumption_tracker
+
+[submodule "hermes_token_consumption_tracker"]
+	path = hermes_token_consumption_tracker
 	url = https://github.com/nuffin/hermes-token-consumption-tracker.git
